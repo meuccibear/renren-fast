@@ -1,6 +1,6 @@
 node('slave001') {
 
-    properties([gitLabConnection('gitlab-bigdata')])
+    properties([gitLabConnection('renren-fast')])
 
     stage('Prepare') {
         echo "1.Prepare Stage"
