@@ -1,6 +1,6 @@
-node('slave001') {
+// node('slave001') {
 
-    properties([gitLabConnection('renren-fast')])
+//     properties([gitLabConnection('renren-fast')])
 
     stage('Prepare') {
         echo "1.Prepare Stage"
@@ -138,4 +138,4 @@ node('slave001') {
     }
 
 
-}
+// }
