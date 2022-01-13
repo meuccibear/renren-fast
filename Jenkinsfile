@@ -53,3 +53,4 @@ node(label) {
 //       sh "'/scripts/deploy.sh' ${workspace} deploy"
 //    }
 }
+}
